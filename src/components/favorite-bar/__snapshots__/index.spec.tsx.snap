@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoriteBar should match snapshot 1`] = `
+<div>
+  <div
+    class="undefined favorite-bar-container"
+  >
+    <div
+      class="favorite-bar"
+      style="width: 50%;"
+    />
+  </div>
+</div>
+`;

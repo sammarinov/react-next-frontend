@@ -1,0 +1,76 @@
+{
+  "caption": "TITLE_FEATURED",
+  "data": [{
+    "id": 11,
+    "caption": "Mickey Mouse",
+    "description": "Micke Mouse is a cartoon character and the mascot of The Walt Disney Company. He was created by Walt Disney and Ub Iwerks at the Walt Disney Studios in 1928. An anthropomorphic mouse who typically wears red shorts, large yellow shoes, and white gloves, Mickey is one of the world's most recognizable characters.",
+    "picture": "mickey.png",
+    "favorite": "68",
+    "price": "99.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": true
+  },{
+    "id": 12,
+    "caption": "Minnie Mouse",
+    "description": "Minnie Mouse is one of Walt Disney's cartoon characters, she is the girlfriend of Mickey Mouse, and first appeared in the short Plane Crazy along with him. Minnie is sweet in nature, fun-loving and very beautiful. She is widely recognized by her pink or red polka-dotted bow.",
+    "picture": "mickey.png",
+    "favorite": "86",
+    "price": "£50.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": false
+  },{
+    "id": 13,
+    "caption": "Donald Duck",
+    "description": "Donald is an anthropomorphic white duck with a yellow-orange bill, legs, and feet. He typically wears a sailor shirt and cap with a bow tie. Donald is known for his semi-intelligible speech and his mischievous and temperamental personality.",
+    "picture": "mickey.png",
+    "favorite": "71",
+    "price": "89.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": true
+  },{
+    "id": 14,
+    "caption": "Goofy",
+    "description": "Goofy is a funny animal cartoon character created in 1932 at Walt Disney Productions. Goofy is a tall, anthropomorphic dog who typically wears a turtle neck and vest, with pants, shoes, white gloves, and a tall hat originally designed as a rumpled fedora. Goofy is a close friend of Mickey Mouse and Donald Duck.",
+    "picture": "mickey.png",
+    "favorite": "55",
+    "price": "£40.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": false
+  },{
+    "id": 11,
+    "caption": "Mickey Mouse",
+    "description": "Micke Mouse is a cartoon character and the mascot of The Walt Disney Company. He was created by Walt Disney and Ub Iwerks at the Walt Disney Studios in 1928. An anthropomorphic mouse who typically wears red shorts, large yellow shoes, and white gloves, Mickey is one of the world's most recognizable characters.",
+    "picture": "mickey.png",
+    "favorite": "68",
+    "price": "£40.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": false
+  },{
+    "id": 12,
+    "caption": "Minnie Mouse",
+    "description": "Minnie Mouse is one of Walt Disney's cartoon characters, she is the girlfriend of Mickey Mouse, and first appeared in the short Plane Crazy along with him. Minnie is sweet in nature, fun-loving and very beautiful. She is widely recognized by her pink or red polka-dotted bow.",
+    "picture": "mickey.png",
+    "favorite": "86",
+    "price": "£79.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": true
+  },{
+    "id": 13,
+    "caption": "Donald Duck",
+    "description": "Donald is an anthropomorphic white duck with a yellow-orange bill, legs, and feet. He typically wears a sailor shirt and cap with a bow tie. Donald is known for his semi-intelligible speech and his mischievous and temperamental personality.",
+    "picture": "mickey.png",
+    "favorite": "71",
+    "price": "£40.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": false
+  },{
+    "id": 14,
+    "caption": "Goofy",
+    "description": "Goofy is a funny animal cartoon character created in 1932 at Walt Disney Productions. Goofy is a tall, anthropomorphic dog who typically wears a turtle neck and vest, with pants, shoes, white gloves, and a tall hat originally designed as a rumpled fedora. Goofy is a close friend of Mickey Mouse and Donald Duck.",
+    "picture": "mickey.png",
+    "favorite": "55",
+    "price": "£69.99",
+    "actions": ["ADD_TO_CART", "MORE_DETAILS"],
+    "topFeatured": true
+  }]
+}

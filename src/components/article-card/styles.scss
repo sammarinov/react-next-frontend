@@ -1,0 +1,30 @@
+.article-card {
+  border-bottom: 5px solid #05A8AA;
+
+  display: grid;
+  grid-row-gap: 10px;
+
+  margin: 1.5rem 0;
+
+  font-size: medium;
+  font-weight: normal;
+
+  &-image {
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  &-caption {
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  &-info {}
+
+  &-description {
+    grid-row-start: 8;
+    grid-row-end: 12;
+
+    margin-bottom: 20px;
+  }
+}

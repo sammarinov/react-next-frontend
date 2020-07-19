@@ -1,0 +1,125 @@
+// pattern mixin
+@mixin pattern($bg-primary, $bg-secondary) {
+  background:
+    linear-gradient(-45deg,
+      transparent,
+      transparent 1em,
+      rgba($bg-secondary, 0.4) 0,
+      rgba($bg-secondary, 0.1) 3em,
+      transparent 0,
+      transparent 1em,
+      rgba($bg-secondary, 0.3) 0,
+      rgba($bg-secondary, 0.2) 4em,
+      transparent 0,
+      transparent 1em,
+      rgba($bg-primary, 0.6) 0,
+      rgba($bg-primary, 0.2) 6em,
+      transparent 0,
+      transparent 1em,
+      rgba($bg-primary, 0.8) 0,
+      rgba($bg-primary, 0.4) 9em,
+      #FFF 0,
+      #FFF),
+    linear-gradient(30deg,
+      transparent,
+      transparent 1em,
+      rgba($bg-secondary, 0.4) 0,
+      rgba($bg-secondary, 0.1) 2em,
+      transparent 0,
+      transparent 1em,
+      rgba($bg-secondary, 0.3) 0,
+      rgba($bg-secondary, 0.2) 4em,
+      transparent 0,
+      transparent 1em,
+      rgba($bg-primary, 0.4) 0,
+      rgba($bg-primary, 0.1) 2em,
+      transparent 0,
+      transparent 1em,
+      rgba($bg-primary, 0.8) 0,
+      rgba($bg-primary, 0.4) 6em,
+      #fff 0,
+      #fff), #FFF;
+  background-blend-mode: multiply;
+}
+
+.featured-card {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+
+  background-color: #FFF;
+  @include pattern(#c0ebfa, #7FD7F5);
+
+  display: grid;
+  grid-row-gap: 10px;
+
+  &-caption {
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  &-description {
+    grid-row-start: 2;
+    grid-row-end: 12;
+
+    font-size: medium;
+    font-weight: normal;
+  }
+
+  &-image {
+    grid-row-start: 12;
+    grid-row-end: 16;
+  }
+
+  &-favorite {
+    display: grid;
+    padding-right: 20px;
+
+    &-icon {
+      width: 25px;
+      height: 25px;
+
+      margin-top: 2px;
+    }
+
+    &-bar-container {
+      grid-column-start: 2;
+      grid-column-end: 10;
+
+      margin: auto 3px;
+    }
+
+    &-value {
+      grid-column-start: 11;
+      grid-column-end: 12;
+      margin: auto;
+
+      font-size: medium;
+      font-weight: bolder;
+    }
+  }
+
+  &-price {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0 5px;
+
+    &-comment {
+      font-weight: lighter;
+      font-size: x-small;
+    }
+  }
+
+  &-actions {
+    grid-row-start: 18;
+    grid-row-end: 20;
+
+    &-item {
+      height: 30px;
+      margin: 10px;
+    }
+  }
+
+}

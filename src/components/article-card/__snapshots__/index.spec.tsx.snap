@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCard should match snapshot 1`] = `
+<div>
+  <div
+    class=" article-card"
+  >
+    <img
+      class="article-card-image"
+      src="images/mickey.png"
+    />
+    <div
+      class="article-card-caption"
+    >
+      About Mickey Mouse
+    </div>
+    <div
+      class="article-card-info"
+    >
+      Aug 05, 1984
+       by 
+      Jummy
+    </div>
+    <div
+      class="article-card-description"
+    >
+      Micke Mouse is a cartoon character and the mascot of The Walt Disney Company. He was created by Walt Disney and Ub Iwerks at the Walt Disney Studios in 1928. An anthropomorphic mouse who typically wears red shorts, large yellow shoes, and white gloves, Mickey is one of the world's most recognizable characters.
+    </div>
+  </div>
+</div>
+`;
